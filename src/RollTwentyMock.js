@@ -383,8 +383,8 @@ const RollTwentyMock = function() {
 
 
         function _triggerEvents(trigger, details) {
-            trigger = trigger || 'NONEXISTENT_EVENT';
-            details = details || {};
+            const myTrigger = trigger || 'NONEXISTENT_EVENT';
+            const myDetails = details || {};
 
             // From the API docs:
             //     Events are fired synchronously (meaning each function won't start until the
@@ -398,12 +398,12 @@ const RollTwentyMock = function() {
 
             while (trigger.indexOf(':') !== -1) {
                 eventList.forEach(function(entry) {
-                    entry.conditionalRun(trigger, details);
+                    entry.conditionalRun(myTrigger, myDetails);
                 });
                 trigger = trigger.replace(/:[\w]+$/, '');
             }
             eventList.forEach(function(entry) {
-                entry.conditionalRun(trigger, details);
+                entry.conditionalRun(myTrigger, myDetails);
             });
         }
 
