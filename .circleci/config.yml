@@ -1,6 +1,12 @@
-machine:
-  node:
-    version: 5.1.1
-dependencies:
-  override:
-    - npm install --dev
+
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:18.17.1
+    steps:
+      - checkout
+      - run: |
+          npm install --include=dev
+          npm exec gulp test

@@ -22,3 +22,5 @@ gulp.task('test', function (cb) {
         jasmine()
     ], cb);
 });
+
+gulp.task('default', gulp.series('test'));

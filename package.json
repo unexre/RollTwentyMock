@@ -20,16 +20,16 @@
   },
   "homepage": "https://github.com/unexre/RollTwentyMock#readme",
   "dependencies": {
-    "underscore": "^1.8.3"
+    "underscore": "^1.13.6"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-jasmine": "^2.4.0",
-    "gulp-jshint": "^2.0.1",
-    "jasmine": "^2.4.1",
-    "jasmine-reporters": "^2.2.0",
-    "jshint": "^2.9.2",
-    "pump": "^1.0.1"
+    "gulp": "^4.0.0",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-jshint": "^2.1.0",
+    "jasmine": "^5.1.0",
+    "jasmine-reporters": "^2.5.2",
+    "jshint": "^2.13.6",
+    "pump": "^3.0.0"
   },
   "private": true
 }

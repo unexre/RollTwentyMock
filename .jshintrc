@@ -47,8 +47,8 @@
     "state"
   ],
 
-  // Allow ES6.
-  "esversion": 6,
+  // Allow ES9 / ES2018.
+  "esversion": 9,
 
   /*
    * ENFORCING OPTIONS
@@ -72,7 +72,7 @@
   "maxlen": 120,
 
   // Require capitalized names for constructor functions.
-  "newcap": true,
+  "newcap": false,
 
   // Enforce use of single quotation marks for strings.
   "quotmark": "single",
