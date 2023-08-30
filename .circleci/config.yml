@@ -8,6 +8,5 @@ jobs:
     steps:
       - checkout
       - run: |
-          node install --dev
-          gulp lint
+          npm install --include=dev
           gulp test
