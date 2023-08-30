@@ -1,1 +1,3 @@
 node_modules/
+# for those who forget to gitignore this globally (like me)
+.vscode/

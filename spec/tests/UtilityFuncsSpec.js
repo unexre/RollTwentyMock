@@ -3,7 +3,7 @@
 
 'use strict';
 
-require('../src/RollTwentyMock');
+const RollTwentyMock = require('../../src/RollTwentyMock');
 
 describe('randomInteger', function() {
     it('should return a number', function() {

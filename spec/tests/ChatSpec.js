@@ -3,7 +3,7 @@
 
 'use strict';
 
-require('../src/RollTwentyMock');
+const RollTwentyMock = require('../../src/RollTwentyMock');
 
 describe('sendChat', function() {
     it('should trigger chat events', function() {

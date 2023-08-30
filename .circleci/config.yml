@@ -9,4 +9,5 @@ jobs:
       - checkout
       - run: |
           npm install --include=dev
-          npm exec gulp test
+          npm run lint
+          npm test

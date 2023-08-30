@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "gulp test"
+    "lint": "jshint src/",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -23,13 +24,8 @@
     "underscore": "^1.13.6"
   },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-jasmine": "^4.0.0",
-    "gulp-jshint": "^2.1.0",
     "jasmine": "^5.1.0",
-    "jasmine-reporters": "^2.5.2",
-    "jshint": "^2.13.6",
-    "pump": "^3.0.0"
+    "jshint": "^2.13.6"
   },
   "private": true
 }

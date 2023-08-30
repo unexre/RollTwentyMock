@@ -3,7 +3,7 @@
 
 'use strict';
 
-require('../src/RollTwentyMock');
+const RollTwentyMock = require('../../src/RollTwentyMock');
 
 describe('Campaign()', function() {
     it('should return a campaign object', function() {
@@ -14,10 +14,12 @@ describe('Campaign()', function() {
 });
 
 describe('getObj()', function() {
-
+    it('should placeholder', function() {
+    });
 });
 describe('findObjs()', function() {
-
+    it('should placeholder', function() {
+    });
 });
 describe('filterObjs()', function() {
     it('should return all objects if passed no param', function() {
@@ -45,5 +47,6 @@ describe('getAllObjs()', function() {
 });
 
 describe('getAttrByName()', function() {
-
+    it('should placeholder', function() {
+    });
 });
