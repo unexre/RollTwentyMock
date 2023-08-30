@@ -47,8 +47,8 @@
     "state"
   ],
 
-  // Allow ES6.
-  "esversion": 6,
+  // Allow ES9 / ES2018.
+  "esversion": 9,
 
   /*
    * ENFORCING OPTIONS
