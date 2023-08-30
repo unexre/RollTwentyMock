@@ -2,7 +2,7 @@
 version: 2.1
 
 jobs:
-  full_suite:
+  build:
     docker:
       - image: cimg/node:18.17.1
     steps:
