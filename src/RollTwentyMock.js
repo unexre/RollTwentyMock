@@ -13,7 +13,7 @@
     that are not written with strict compliance.
 */
 
-const RollTwentyMock = RollTwentyMock || function() {
+const RollTwentyMock = function() {
         'use strict';
 
         // consts
@@ -294,7 +294,7 @@ const RollTwentyMock = RollTwentyMock || function() {
             // from http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
             // by broofa
             return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-                var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+                var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
                 return v.toString(16);
             });
         }
@@ -745,6 +745,6 @@ exports.RollTwentyMock = RollTwentyMock;
 
 // This is dirty. I'm sorry. (Not really.)
 Object.keys(RollTwentyMock).forEach(function(key) {
-    "use strict";
+    'use strict';
     global[key] = RollTwentyMock[key];
 });
