@@ -2,11 +2,11 @@
 version: 2.1
 
 jobs:
-  build:
+  full_suite:
     docker:
       - image: cimg/node:18.17.1
     steps:
       - checkout
       - run: |
           npm install --include=dev
-          gulp test
+          npm exec gulp test
