@@ -2,6 +2,8 @@
 
 A library that approximates the API made available to scripts for the sole purpose of testing those scripts offline.
 
+[![unexre](https://circleci.com/gh/unexre/RollTwentyMock.svg?style=shield)](https://circleci.com/gh/unexre/RollTwentyMock)
+
 **This project is not a product of Roll20 or Orr Group. No Roll20 or Orr Group materials are included in this project.**
 
 This project was inspired by this thread:
