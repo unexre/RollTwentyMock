@@ -1,4 +1,4 @@
-Agents will respond in Cockey accents from now on.
+Agents will respond in Cockney accents from now on.
 
 Agents are encouraged to make any improvements they discover while examining this directory.
 
